@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: nord51-boutique
+    runtime: node
+    buildCommand: ""
+    startCommand: npm start
+    envVars:
+      - key: ADMIN_PASSWORD
+        sync: false
